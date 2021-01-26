@@ -1,0 +1,273 @@
+/* rgba(255, 255, 255, 0.555), rgba(255, 255, 255, 0.555 */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* Start */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:'Quicksand', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.555), rgba(255, 255, 255, 0.555)), url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+}
+
+nav .container-logo {
+    display: flex;
+    width: 400px;
+    height: 115px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    text-align: center;    
+    align-items: center;
+}
+
+/* Logo */
+nav .container-logo #logo {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* List */
+nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 20%;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 15px;
+    padding: 5px 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color:  #2D2525;
+}
+
+nav ul li a:hover {
+    background-color: rgba(218, 140, 42, 0.6);
+}
+
+/* Header */
+header .container-write {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 574px; */
+    text-align: center;
+}
+
+header .container-write .satu {
+    padding: 20px 45px;
+    margin: 10px auto;
+    background: rgba(218, 140, 42, 0.6);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+header .container-write .satu h1 {
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /*Font*/
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 50px;
+    color: #2D2525;
+}
+
+header .container-write .dua {
+    height: 71px;
+    position: relative;
+    padding: 10px 50px;
+    margin: 50px auto;
+    background: rgba(45, 37, 37, 0.8);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+header .container-write .dua h1 {
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* Font */
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 50px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    color: #E9E9F1;
+}
+
+header .container-write .tiga {
+    height: 71px;
+    position: relative;
+    margin: 0 auto;
+}
+
+header .container-write .tiga h1 {
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* Font */
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    z-index: 1;
+    color: #2D2525;
+}
+
+header .container-write .tiga h1::after {
+    content: "Kepada Kami";
+    font-size: 64px;
+    margin: 0 auto;
+}
+
+header .container-write .tiga .block {
+    display: inline-block;
+    width: 424px;
+    height: 71px;
+    position: relative;
+    margin: 0 auto;
+    transform: translate(30px,-110%);
+    background: rgba(218, 140, 42, 0.6);
+    -webkit-transform: translate(30px,-110%);
+    -moz-transform: translate(30px,-110%);
+    -ms-transform: translate(30px,-110%);
+    -o-transform: translate(30px,-110%);
+}
+
+header .container-write .empat {
+    height: 71px;
+    position: relative;
+    padding: 10px 20px;
+    margin: 50px auto;
+    cursor: pointer;
+    box-shadow:  0px 8px 6px 0px rgba(102, 93, 93, 0.8);
+    background: rgba(45, 37, 37, 0.8);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+header .container-write .empat:hover {
+    background: rgba(45, 37, 37, 0.89);
+}
+
+header .container-write .empat:active {
+    position: relative;
+    top: 2px;
+}
+
+header .container-write .empat h1 {
+    top: 50%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* Font */
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    color: #E9E9F1;
+}
+
+/* Footer Section */
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+footer .col-copyright {
+    flex: 1;
+    text-align: left;
+    padding-left: 150px;
+}
+
+footer .col-copyright span {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(45, 37, 37);
+}
+
+footer .col-list {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 150px;
+}
+
+footer .col-list a {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+footer .col-list a ion-icon {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(45, 37, 37);
+}
